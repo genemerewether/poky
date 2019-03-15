@@ -22,8 +22,8 @@ SRC_URI += " file://python-libdir.patch \
             file://py-compile-compile-only-optimized-byte-code.patch \
             file://buildtest.patch"
 
-SRC_URI[md5sum] = "716946a105ca228ab545fc37a70df3a3"
-SRC_URI[sha256sum] = "7946e945a96e28152ba5a6beb0625ca715c6e32ac55f2e353ef54def0c8ed924"
+SRC_URI[md5sum] = "7fb7155e553dc559ac39cf525f0bb5de"
+SRC_URI[sha256sum] = "80da43bb5665596ee389e6d8b64b4f122ea4b92a685b1dbd813cd1f0e0c2d83f"
 
 CACHED_CONFIGUREVARS += "ac_cv_path_PERL=${USRBINPATH}/perl"
 
